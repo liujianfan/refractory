@@ -105,9 +105,29 @@
 				</div>
 			</div>
 
-			<div class="col-lg-10 col-md-12">
+			<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
 				<div class="proinfo">
-					<div class="probox">
+					<div class="probox col-xs-12 col-lg-3 col-md-3 col-sm-6">
+						<img src="https://www.baidu.com/img/bd_logo1.png" alt="..." class="img-thumbnail">
+						<p>万之联超级搅拌机</p>
+					</div>
+					<div class="probox col-xs-12 col-lg-3 col-md-3 col-sm-6">
+						<img src="https://www.baidu.com/img/bd_logo1.png" alt="..." class="img-thumbnail">
+						<p>万之联超级搅拌机</p>
+					</div>
+					<div class="probox col-xs-12 col-lg-3 col-md-3 col-sm-6">
+						<img src="https://www.baidu.com/img/bd_logo1.png" alt="..." class="img-thumbnail">
+						<p>万之联超级搅拌机</p>
+					</div>
+					<div class="probox col-xs-12 col-lg-3 col-md-3 col-sm-6">
+						<img src="https://www.baidu.com/img/bd_logo1.png" alt="..." class="img-thumbnail">
+						<p>万之联超级搅拌机</p>
+					</div>
+					<div class="probox col-xs-12 col-lg-3 col-md-3 col-sm-6">
+						<img src="https://www.baidu.com/img/bd_logo1.png" alt="..." class="img-thumbnail">
+						<p>万之联超级搅拌机</p>
+					</div>
+					<div class="probox col-xs-12 col-lg-3 col-md-3 col-sm-6">
 						<img src="https://www.baidu.com/img/bd_logo1.png" alt="..." class="img-thumbnail">
 						<p>万之联超级搅拌机</p>
 					</div>

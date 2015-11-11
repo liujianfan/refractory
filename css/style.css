@@ -2,7 +2,6 @@ body{padding-top: 55px;font-family: Arial,"微软雅黑";}
 #logofont{font-size: 40px;}
 .navbar-brand img{height: 50px;margin-top: -15px;}
 .footer{background-color: #333333;color: white;padding-top: 20px;}
-/*.footer dl{float: left;padding: 0px 5% 0px 15%;}*/
 .footer dt{font-size: 24px;padding-bottom: 10px;}
 .footer dd{padding-left: 30px;}
 .footer hr,p{padding:0px;margin:0px;}
@@ -11,3 +10,5 @@ body{padding-top: 55px;font-family: Arial,"微软雅黑";}
 .newsdate{font-size: 13px;}
 .media img{width: 100px;}
 .panel-title a{color:red;font-size:10px;float:right;font-weight: bold;font-style: oblique;}
+/*产品页样式表*/
+.probox{}
