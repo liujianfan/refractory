@@ -108,7 +108,7 @@
 			<div class="col-lg-10 col-md-12">
 				<div class="proinfo">
 					<div class="probox">
-						<img src="/img/1.jpg" alt="..." class="img-thumbnail">
+						<img src="https://www.baidu.com/img/bd_logo1.png" alt="..." class="img-thumbnail">
 						<p>万之联超级搅拌机</p>
 					</div>
 				</div>
