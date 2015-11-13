@@ -13,6 +13,6 @@ body{padding-top: 55px;font-family: Arial,"微软雅黑";}
 /*产品页样式表*/
 .prolist a:link{color: black;}
 .prolist a:visited{color: black;}
-.panel{margin-bottom: 10px;}
+.panel{margin-bottom: 15px;}
 .panel-heading{padding: 2px 0px 2px 2px;}
 .list-group-item{padding: 2px 5px 2px 5px;}
