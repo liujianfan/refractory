@@ -14,5 +14,16 @@ body{padding-top: 55px;font-family: Arial,"微软雅黑";}
 .prolist a:link{color: black;}
 .prolist a:visited{color: black;}
 .panel{margin-bottom: 15px;}
-.panel-heading{padding: 2px 0px 2px 2px;}
+.panel-heading{padding: 5px 5px 5px 5px;}
 .list-group-item{padding: 2px 5px 2px 5px;}
+.proinfo img{height: 100%;width: 100%;}
+/*新闻页样式列表*/
+.textbody{padding-left: 0px;}
+.h1title{font-size: 26px;font-weight: bold;line-height: 31px;padding: 0;margin: 0;color: #252525;    font-family: "\5B8B\4F53", sans-serif;}
+.contenttext{font-size: 16px;line-height: 28px;color:#252525;}
+.newsoure{height: 49px;line-height: 49px;font-family: Arial, "\5B8B\4F53", sans-serif;color: #888888;}
+.newsnav .list-group-item{padding:10px 5px 10px 5px;}
+.newslist{box-shadow: 0px 3px 10px gray;}
+.newslist li{line-height: 30px;text-indent: 20px;}
+/*公共样式*/
+.breadcrumb{box-shadow: 0px 3px 10px gray;}

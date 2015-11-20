@@ -15,75 +15,99 @@
 <body>
 	<!-- Nav-start -->
 	<nav class="navbar navbar-default navbar-fixed-top">
-		<!-- <div class="container-fluid"> -->
-			<div class="navbar-header hidden-md hidden-sm">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>					
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">
-					<img class="pull-left clearfix" src="./img/logo.png" alt="Brand">河南万之联
-				</a>
-			</div>
+		<!--响应式导航切换按钮-->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>					
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img class="pull-left clearfix" src="./img/logo.png" alt="Brand">河南万之联
+			</a>
+		</div>
+		<!--导航列表-->
 		<div class="container">
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav  navbar-nav">
-					<li><a href="./index.html">网站首页</a></li>
-					<li><a href="./product.html">产品中心</a></li>
-					<li class="active"><a href="./news.html">新闻动态</a></li>
-					<li><a href="./about.html">公司简介</a></li>
-					<li class="dropdown">
-						<a href="./contact.html" class="dropdown-toggle" data-toggle="dropdown">
-							联系方式 <b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu" style="padding-left:10px;width:180px;">
-							<li>
-								<address>
-									<strong>河南万之联贸易有限公司</strong><br>
-									南阳路239号<br>
-									河南 郑州, 邮编 450000<br>					  
-								</address>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<address>
-									<abbr title="Phone">联系电话：</abbr><br> (+86) 0371-63737678
-								</address>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<address>
-									<strong>业务邮箱：</strong>
-									<a href="mailto:wzl@wanzhilian.com">wzl@wanzhilian.com</a>
-								</address>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<form class="navbar-form navbar-right" role="search">
-		         	<div class="form-group">
-			         	<input type="text" class="form-control" placeholder="Search">
-			        </div>
-		            <button type="submit" class="btn btn-default">Submit</button>
-		      	</form>
+			<div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
+				<div class="">								
+					<ul class="nav  navbar-nav">
+						<li><a href="./index.html">网站首页</a></li>
+						<li><a href="./product.html">产品中心</a></li>
+						<li class="active"><a href="./news.html">新闻动态</a></li>
+						<li><a href="./about.html">公司简介</a></li>
+						<li class="dropdown">
+							<a href="./contact.html" class="dropdown-toggle" data-toggle="dropdown">
+								联系方式 <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu" style="padding-left:10px;width:180px;">
+								<li>
+									<address>
+										<strong>河南万之联贸易有限公司</strong><br>
+										南阳路239号<br>
+										河南 郑州, 邮编 450000<br>					  
+									</address>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<address>
+										<abbr title="Phone">联系电话：</abbr><br> (+86) 0371-63737678
+									</address>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<address>
+										<strong>业务邮箱：</strong>
+										<a href="mailto:wzl@wanzhilian.com">wzl@wanzhilian.com</a>
+									</address>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="hidden-sm">
+					<form class="navbar-form navbar-right" role="search">
+			         	<div class="form-group  has-feedback">
+			         	<label class="control-label sr-only" for="inputSearch">Input with success</label>
+		         		<div class="input-group">
+				         	<input type="text" class="form-control" id="inputSearch" placeholder="Search">
+				         	<span class="input-group-btn">
+				         		<button class="btn btn-default" type="submit">
+				         			<span class="glyphicon glyphicon-search"></span>
+				         		</button>
+				         	</span>
+			         	</div>
+				        </div>
+			      	</form>
+		      	</div>
 			</div>
 		</div>
 	</nav>
 	<!-- Nav-end -->
 	<div class="container">
-		<div class="newsnav list-group col-lg-2 col-md-2 col-xs-2 col-sm-2">
-			<a href="#" class="list-group-item active">行业资讯</a>
-			<a href="#" class="list-group-item">公司新闻</a>
+		<!--新闻列表-->
+		<div class="newsnav list-group col-lg-2 col-md-3 col-sm-3 col-xs-1 text-center">
+			<a href="#" class="list-group-item active">新闻中心</a>
+			<a href="#" class="list-group-item">行业资讯</a>
+			<a href="#" class="list-group-item">公司新闻</a>			
 		</div>
-		<div class="newslist col-lg-10">
+		<div class="textbody col-lg-10 col-md-9 col-sm-9 col-xs-11">
 			<!--路径导航-->
 			<ol class="breadcrumb">
-			  <li><a href="#">首页</a></li>
+			  <li><a href="./index.html">首页</a></li>
 			  <li class="active">新闻动态</li>
 			</ol>
+			<div class="newslist" style="min-height: 600px;">
+				<ul>
+					<li><small class="pull-right hidden-xs" style="padding-right: 50px;">[2015-12-25 16:19]</small><a href="#">公积金管理拟放宽提取条件 可提取支付物业费</a></li>
+					<li><a href="#">东北华北进入雨雪模式 今冬首次寒潮将来临</a></li>
+					<li><a href="#">最高法:夫妻一方出轨另一方可索精神赔偿</a></li>
+					<li><a href="#">曝央视足球解说员段暄申请离职 曾称干到70岁</a></li>
+				</ul>
+			</div>
 		</div>
+		
+		
 	</div>
 </body>
 </html>
